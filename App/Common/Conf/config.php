@@ -3,7 +3,7 @@ return array(
 	//'配置项'=>'配置值'
    'DB_TYPE'    =>  'mysql',//数据库类型
     'DB_HOST'   =>  'localhost',//数据库地址
-    'DB_NAME'   =>  'ESHOP',//数据库名
+    'DB_NAME'   =>  'eshop',//数据库名
     'DB_USER'   =>  'root',//用户名
     'DB_PWD'    =>  '123021',//密码
     'DB_PORT'   =>  '3306',//端口
