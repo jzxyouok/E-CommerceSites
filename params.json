@@ -1,0 +1,6 @@
+{
+  "name": "E-commercesites",
+  "tagline": "电商网站（ThinkPHP框架）",
+  "body": "# \t本电商站点是用的框架是ThinkPhP框架\r\n\r\n\t--------------目录结构-----------------\r\n\t\r\n    directory\r\n        Application     应用文件\r\n            Common          应用公共模块\r\n                Common          应用公共函数目录\r\n                Conf            应用公共配置文件目录\r\n            Home            默认生成的Home模块(前台模块)\r\n                Conf            模块配置文件目录\r\n                Common          模块函数公共目录\r\n                Model           模块木星目录\r\n                View            模块视图文件目录\r\n        Runtime             运行时目录\r\n            Cache               模板缓存目录\r\n            Data                数据目录\r\n            Logs                日志目录\r\n            Temp                缓存目录\r\n        Public          公共文件\r\n        ThinkPHP        框架文件\r\n        Vendor          第三方插件文件\r\n        .htaccess       分布式配置文件\r\n        index.php       入口文件\r\n\r\n\t\t\r\n\t\t\r\n\t------------TP官方给出的开发建议----------\r\n\t\r\n    遵循框架的命名规范和目录规范；\r\n    开发过程中尽量开启调试模式，及早发现问题；\r\n    多看看日志文件，查找隐患问题；\r\n    养成使用I函数获取输入变量的好习惯；\r\n    更新或者环境改变后遇到问题首要问题是清空Runtime目录\r\n\r\n\r\n\r\n\t-------------说明--------------------\r\n\t\t和数据库打交道的方法一般都写在model中\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
