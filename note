@@ -1,0 +1,35 @@
+这个网站应用是为了综合练习学习PHP以来的所有成果！
+
+    1.引入TP框架，建立应用入口文件index.php：
+       //设置应用字符集
+       header('content-type:text/html;charset=utf-8');
+       //是否开启调试模式
+       define('APP_DEBUG', true );
+       //获取入口文件、站点根目录的工作目录地址
+       define('WORKING_PATH', str_replace("\\", '/', __DIR__));
+       //设定Admin后台模块（生成之后需关闭！不然后续在设置默认模块时会出错！）
+       //define('BIND_MODULE','Admin');
+       //定义站点应用目录
+       define('APP_PATH','./Application/');
+       //定义安全文件名称为：index.html
+       define('DIR_SECURE_FILENAME', 'index.html');
+       //定义文件上传的存储目录
+       define('UPLOAD_ROOT_PATH', '/Public/Uploads/');
+       //引用TP框架文件
+       require './ThinkPHP/ThinkPHP.php';
+
+       //////////////////////看手册的问题///////////////////////////////////
+       1.命名空间
+       2.自动加载
+       3.项目编译
+       4.
+
+    2.连接MySQL数据库
+
+    3.编写静态HTML文件：
+        2.1简单建立一个首页文件
+        2.2建立登陆及注册页面
+
+        //////////////////////静态页面的问题///////////////////////////////////
+        1.背景图片没做到响应式变换
+        2.图片的圆形格式显示不正确！
