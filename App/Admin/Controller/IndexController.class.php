@@ -1,26 +1,22 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
+//后台首页控制器
 class IndexController extends Controller {
-    //引入后台首页
     public function index()
     {
-        $this -> display();
+        $this->display();
     }
     public function top()
     {
-        $this -> display();
+        $this->display();
     }
     public function left()
     {
-        $this -> display();
+        $this->display();
     }
-    public function drag()
+    public function center()
     {
-        $this -> display();
-    }
-    public function main()
-    {
-        $this -> display();
+        $this->display();
     }
 }

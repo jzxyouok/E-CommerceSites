@@ -1,0 +1,30 @@
+#######我项目流程######
+
+1.搭建前台模板
+	1.1配置前台公共文件路径配置
+	1.2前台首页
+		Home/Index/index
+	1.3商品列表页面
+		Home/Goods/showList
+	1.4商品详情页面
+		Home/Goods/detail
+	1.5用户登录页面
+		Home/User/login
+	1.6用户注册页面
+		Home/User/register
+		
+2.搭建后台模板
+	2.1配置后台公共文件路径配置
+	2.2后台首页
+		Admin/Index/index
+	2.3商品列表
+		Admin/Goods/showlist
+	2.4商品添加页面，并于相关按钮绑定
+		Admin/Goods/add
+
+3.操作数据库
+	3.1将Admin和Home应用中的Model删除掉，在APP目录下创建Model文件夹
+	3.2设置数据库配置
+	
+
+

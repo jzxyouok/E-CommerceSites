@@ -1,151 +1,102 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="/Public/Admin/styles/general.css" rel="stylesheet" type="text/css" />
-
-
+<title>无标题文档</title>
 <style type="text/css">
-#header-div {
-  background: #278296;
-  border-bottom: 1px solid #FFF;
+<!--
+body {
+	margin-left: 0px; 
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
 }
-
-#logo-div {
-  height: 50px;
-  float: left;
+.STYLE1 {
+	font-size: 12px;
+	color: #000000;
 }
-
-#license-div {
-  height: 50px;
-  float: left;
-  text-align:center;
-  vertical-align:middle;
-  line-height:50px;
+.STYLE5 {font-size: 12}
+.STYLE7 {font-size: 12px; color: #FFFFFF; }
+.STYLE7 a{font-size: 12px; color: #FFFFFF; }
+a img {
+	border:none;
 }
+-->
+</style></head>
 
-#license-div a:visited, #license-div a:link {
-  color: #EB8A3D;
-}
-
-#license-div a:hover {
-  text-decoration: none;
-  color: #EB8A3D;
-}
-
-#submenu-div {
-  height: 50px;
-}
-
-#submenu-div ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-#submenu-div li {
-  float: right;
-  padding: 0 10px;
-  margin: 3px 0;
-  border-left: 1px solid #FFF;
-}
-
-#submenu-div a:visited, #submenu-div a:link {
-  color: #FFF;
-  text-decoration: none;
-}
-
-#submenu-div a:hover {
-  color: #F5C29A;
-}
-
-#loading-div {
-  clear: right;
-  text-align: right;
-  display: block;
-}
-
-#menu-div {
-  background: #80BDCB;
-  font-weight: bold;
-  height: 24px;
-  line-height:24px;
-}
-
-#menu-div ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-#menu-div li {
-  float: left;
-  border-right: 1px solid #192E32;
-  border-left:1px solid #BBDDE5;
-}
-
-#menu-div a:visited, #menu-div a:link {
-  display:block;
-  padding: 0 20px;
-  text-decoration: none;
-  color: #335B64;
-  background:#9CCBD6;
-}
-
-#menu-div a:hover {
-  color: #000;
-  background:#80BDCB;
-}
-
-#submenu-div a.fix-submenu{clear:both; margin-left:5px; padding:1px 5px; *padding:3px 5px 5px; background:#DDEEF2; color:#278296;}
-#submenu-div a.fix-submenu:hover{padding:1px 5px; *padding:3px 5px 5px; background:#FFF; color:#278296;}
-#menu-div li.fix-spacel{width:30px; border-left:none;}
-#menu-div li.fix-spacer{border-right:none;}
-</style>
-</head>
 <body>
-<div id="header-div">
-
-  <div id="logo-div" style="bgcolor:#000000;"><img src="/Public/Admin/images/ecshop_logo.gif" alt="ECSHOP - power for e-commerce" /></div>
-  <div id="license-div" style="bgcolor:#000000;"></div>
-  <div id="submenu-div">
-    <ul>
-      <li><a href="#" target="main-frame">关于 ECSHOP</a></li>
-      <li><a href="#">帮助</a></li>
-      <li><a href="#">计算器</a></li>
-
-      <li><a href="#" target="_blank">查看网店</a></li>
-      <li><a href="#" target="main-frame">管理员留言</a></li>
-      <li><a href="#" target="main-frame">个人设置</a></li>
-      <li><a href="#">刷新</a></li>
-      <li><a href="#"  onclick="ShowToDoList()">记事本</a></li>
-      <li style="border-left:none;"><a href="#" target="main-frame">开店向导</a></li>
-
-    </ul>
-    <div id="send_info" style="padding: 5px 10px 0 0; clear:right;text-align: right; color: #FF9900;width:40%;float: right;">
-            <a href="#" target="main-frame" class="fix-submenu">清除缓存</a>
-      <a href="#" target="_top" class="fix-submenu">退出</a>
-    </div>
-        <div id="load-div" style="padding: 5px 10px 0 0; text-align: right; color: #FF9900; display: none;width:40%;float:right;"><img src="/Public/Admin/images/top_loader.gif" width="16" height="16" alt="正在处理您的请求..." style="vertical-align: middle" /> 正在处理您的请求...</div>
-  </div>
-
-</div>
-<div id="menu-div">
-  <ul>
-    <li class="fix-spacel">&nbsp;</li>
-    <li><a href="#" target="main-frame">起始页</a></li>
-    <li><a href="#" target="main-frame">设置导航栏</a></li>
-        <li><a href="#" target="main-frame">商品列表</a></li>
-        <li><a href="#" target="main-frame">订单列表</a></li>
-
-        <li><a href="#" target="main-frame">用户评论</a></li>
-        <li><a href="#" target="main-frame">会员列表</a></li>
-        <li><a href="#" target="main-frame">商店设置</a></li>
-        <li class="fix-spacer">&nbsp;</li>
-  </ul>
-  <br class="clear" />
-</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="57" background="<?php echo C('AD_IMG_URL');?>main_03.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="378" height="57" background="<?php echo C('AD_IMG_URL');?>main_01.gif">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td width="281" valign="bottom"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="33" height="27"><img src="<?php echo C('AD_IMG_URL');?>main_05.gif" width="33" height="27" /></td>
+            <td width="248" background="<?php echo C('AD_IMG_URL');?>main_06.gif"><table width="225" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="17"><div align="right"><a href="pwd.php" target="rightFrame"><img src="<?php echo C('AD_IMG_URL');?>pass.gif" width="69" height="17" /></a></div></td>
+                <td><div align="right"><a href="user.php" target="rightFrame"><img src="<?php echo C('AD_IMG_URL');?>user.gif" width="69" height="17" /></a></div></td>
+                <td><div align="right"><a href="exit.php" target="_parent"><img src="<?php echo C('AD_IMG_URL');?>quit.gif" alt=" " width="69" height="17" /></a></div></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="40" background="<?php echo C('AD_IMG_URL');?>main_10.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="194" height="40" background="<?php echo C('AD_IMG_URL');?>main_07.gif">&nbsp;</td>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="21"><img src="<?php echo C('AD_IMG_URL');?>main_13.gif" width="19" height="14" /></td>
+            <td width="35" class="STYLE7"><div align="center"><a href="<?php echo U('right');?>" target="rightFrame">首页</a></div></td>
+            <td width="21" class="STYLE7"><img src="<?php echo C('AD_IMG_URL');?>main_15.gif" width="19" height="14" /></td>
+            <td width="35" class="STYLE7"><div align="center"><a href="javascript:history.go(-1);">后退</a></div></td>
+            <td width="21" class="STYLE7"><img src="<?php echo C('AD_IMG_URL');?>main_17.gif" width="19" height="14" /></td>
+            <td width="35" class="STYLE7"><div align="center"><a href="javascript:history.go(1);">前进</a></div></td>
+            <td width="21" class="STYLE7"><img src="<?php echo C('AD_IMG_URL');?>main_19.gif" width="19" height="14" /></td>
+            <td width="35" class="STYLE7"><div align="center"><a href="javascript:window.parent.location.reload();">刷新</a></div></td>
+            <td width="21" class="STYLE7"><img src="<?php echo C('AD_IMG_URL');?>main_21.gif" width="19" height="14" /></td>
+            <td width="35" class="STYLE7"><div align="center"><a href="http://www.865171.cn" target="_parent">帮助</a></div></td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+        <td width="248" background="<?php echo C('AD_IMG_URL');?>main_11.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="16%"><span class="STYLE5"></span></td>
+            <td width="75%"><div align="center"><span class="STYLE7">By Jessica (<a href="http://Www.865171.cn" target="_blank">Www.865171.cn</a>)</span></div></td>
+            <td width="9%">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="30" background="<?php echo C('AD_IMG_URL');?>main_31.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="8" height="30"><img src="<?php echo C('AD_IMG_URL');?>main_28.gif" width="8" height="30" /></td>
+        <td width="147" background="<?php echo C('AD_IMG_URL');?>main_29.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="24%">&nbsp;</td>
+            <td width="43%" height="20" valign="bottom" class="STYLE1">管理菜单</td>
+            <td width="33%">&nbsp;</td>
+          </tr>
+        </table></td>
+        <td width="39"><img src="<?php echo C('AD_IMG_URL');?>main_30.gif" width="39" height="30" /></td>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="20" valign="bottom"><span class="STYLE1">当前登录用户：admin &nbsp;用户角色：管理员</span></td>
+            <td valign="bottom" class="STYLE1"><div align="right"></div></td>
+          </tr>
+        </table></td>
+        <td width="17"><img src="<?php echo C('AD_IMG_URL');?>main_32.gif" width="17" height="30" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
 </body>
-
 </html>
