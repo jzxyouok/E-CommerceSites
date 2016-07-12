@@ -67,97 +67,28 @@ a:visited{
         <td width="4%" height="20" bgcolor="d3eaef" class="STYLE10"><div align="center">
           <input type="checkbox" name="checkbox" id="checkbox" />
         </div></td>
-        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">用户名</span></div></td>
-        <td width="15%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">用户角色</span></div></td>
-        <td width="14%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">联系方式</span></div></td>
-        <td width="16%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">IP地址</span></div></td>
-        <td width="27%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">详细描述</span></div></td>
-        <td width="14%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">基本操作</span></div></td>
+        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">商品ID</span></div></td>
+        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">商品名称</span></div></td>
+        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">价格</span></div></td>
+        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">重量</span></div></td>
+        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">数量</span></div></td>
+        <td width="*" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">详情</span></div></td>
+        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">基本操作</span></div></td>
       </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox2" id="checkbox2" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE6"><div align="center"><span class="STYLE19">admin</span></div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center" class="STYLE21">
-        <img src="<?php echo C('AD_IMG_URL');?>del.gif" width="10" height="10" /> 删除 | 查看 | <img src="<?php echo C('AD_IMG_URL');?>edit.gif" width="10" height="10" /> 编辑</div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox3" id="checkbox3" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">
-        <img src="<?php echo C('AD_IMG_URL');?>del.gif" width="10" height="10" /> 删除 | 查看 | <img src="<?php echo C('AD_IMG_URL');?>edit.gif" width="10" height="10" /> 编辑</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox4" id="checkbox4" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">
-        <img src="<?php echo C('AD_IMG_URL');?>del.gif" width="10" height="10" /> 删除 | 查看 | <img src="<?php echo C('AD_IMG_URL');?>edit.gif" width="10" height="10" /> 编辑</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox5" id="checkbox5" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">
-        <img src="<?php echo C('AD_IMG_URL');?>del.gif" width="10" height="10" /> 删除 | 查看 | <img src="<?php echo C('AD_IMG_URL');?>edit.gif" width="10" height="10" /> 编辑</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox6" id="checkbox6" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">
-        <img src="<?php echo C('AD_IMG_URL');?>del.gif" width="10" height="10" /> 删除 | 查看 | <img src="<?php echo C('AD_IMG_URL');?>edit.gif" width="10" height="10" /> 编辑</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox7" id="checkbox7" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">
-        <img src="<?php echo C('AD_IMG_URL');?>del.gif" width="10" height="10" /> 删除 | 查看 | <img src="<?php echo C('AD_IMG_URL');?>edit.gif" width="10" height="10" /> 编辑</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox8" id="checkbox8" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">
-        <img src="<?php echo C('AD_IMG_URL');?>del.gif" width="10" height="10" /> 删除 | 查看 | <img src="<?php echo C('AD_IMG_URL');?>edit.gif" width="10" height="10" /> 编辑</span></div></td>
-      </tr>
+      <?php if(is_array($goods)): foreach($goods as $key=>$v): ?><tr>
+          <td height="20" bgcolor="#FFFFFF"><div align="center">
+            <input type="checkbox" name="checkbox2" id="checkbox2" />
+          </div></td>
+          <td height="20" bgcolor="#FFFFFF" class="STYLE6"><div align="center"><span class="STYLE19"><?php echo ($v["goods_id"]); ?></span></div></td>
+          <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo ($v["goods_name"]); ?></div></td>
+          <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo ($v["goods_price"]); ?></div></td>
+          <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo ($v["goods_weight"]); ?></div></td>
+          <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo ($v["goods_number"]); ?></div></td>
+          <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo ($v["goods_introduce"]); ?></div></td>
+          <td height="20" bgcolor="#FFFFFF"><div align="center" class="STYLE21">
+            <img src="<?php echo C('AD_IMG_URL');?>del.gif" width="10" height="10" /> 删除 | 查看 | <img src="<?php echo C('AD_IMG_URL');?>edit.gif" width="10" height="10" /> 编辑</div></td>
+        </tr><?php endforeach; endif; ?>
+
     </table></td>
   </tr>
   <tr>

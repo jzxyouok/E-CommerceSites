@@ -16,16 +16,36 @@ class GoodsController extends Controller{
     //后台商品展示页
     public function showList()
     {
-        //测试数据库连接
-        $goods = new \Model\GoodsModel();  //完全限定名称 方式实例化类对象
-        dump($goods);
+        //获取商品数据
+        $goods = D('goods')
+            -> field(`goods_id,goods_name,goods_price,goods_number,goods_weight,goods_introduce`)
+            -> select();
+        $this -> assign('goods',$goods);
+
         $this -> display();
     }
 
     //商品添加
     public function add()
     {
-        $this -> display();
+        //展示添加表单页，收集数据
+        $goods = D('goods');
+        if (IS_POST){
+
+            $shuju = $goods -> create();
+            //单独收集富文本编辑器信息,过滤信息！
+            $shuju['goods_introduce'] = \fangXSS($_POST['goods_introduce']);
+
+            $shuju['add_time'] = $shuju['upd_time'] = time();
+            if ($goods -> add($shuju)){
+                $this -> success('添加商品成功',U('showList'));
+            }else{
+                $this -> error('添加商品失败',U('showList'));
+            }
+        }else{
+            $this -> display();
+        }
+
     }
 
 }

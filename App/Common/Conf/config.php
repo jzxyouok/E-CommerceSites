@@ -10,6 +10,8 @@ return array(
     'AD_CSS_URL' => '/PUBLIC/Admin/css/',
     'AD_JS_URL' => '/PUBLIC/Admin/js/',
     'AD_IMG_URL' => '/PUBLIC/Admin/images/',
+    //为Plugin插件包配置变量访问路径
+    'PLUGIN_URL' => '/App/Common/Plugin/',
     //数据库设置：
     'DB_TYPE'               =>  'mysql',     // 数据库类型
     'DB_HOST'               =>  'localhost', // 服务器地址
